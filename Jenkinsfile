@@ -17,7 +17,7 @@ pipeline {
         }
         stage('push image') {
             steps{
-                sh ' docker push vatsraj/pythonapp:$BUILD_NUMBER'
+                sh ' docker push prakash6333/pythonapp:$BUILD_NUMBER'
             }
         }
 }
